@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <command>" >&2
+    exit 1
+fi
+
+cmd="$1"
+
+if [ ! -f "$cmd" ]; then
+    echo "File not found: $cmd" >&2
+    exit 1
+fi
+
+if [ "$(id -u)" -eq 0 ]; then
+    install -m 755 "$cmd" /usr/local/bin/
+else
+    sudo install -m 755 "$cmd" /usr/local/bin/
+fi

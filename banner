@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <text>" >&2
+    exit 1
+fi
+
+text="$1"
+len=${#text}
+border=$(printf '%*s' "$((len + 2))" '' | tr ' ' '-')
+
+printf '+%s+\n' "$border"
+printf '| %s |\n' "$text"
+printf '+%s+\n' "$border"
