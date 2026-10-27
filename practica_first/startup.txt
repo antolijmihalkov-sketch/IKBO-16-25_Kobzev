@@ -1,8 +1,0 @@
-clear
-help
-ls
-mkdir my_new_folder
-ls
-rmdir my_new_folder
-ls
-history

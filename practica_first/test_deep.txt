@@ -1,0 +1,12 @@
+ls
+cd level1
+ls
+cd level2
+ls
+cd level3
+ls
+cd ../../..
+mkdir virtual_folder
+ls
+rmdir virtual_folder
+ls
