@@ -1,0 +1,5 @@
+ls
+cd ../multi_vfs
+ls
+head a.txt
+history
