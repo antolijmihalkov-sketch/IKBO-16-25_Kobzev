@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="530" viewBox="0 0 900 530">
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#475569"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M 450 68 C 550 85, 550 105, 450 122" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 450 158 C 550 175, 550 195, 450 212" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 450 248 C 550 265, 550 285, 450 302" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 450 338 C 550 355, 550 375, 450 392" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="320" y="30" width="260" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="450" y="55" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">A</text>
+<rect x="320" y="120" width="260" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="450" y="145" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">B</text>
+<rect x="320" y="210" width="260" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="450" y="235" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">C</text>
+<rect x="320" y="300" width="260" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="450" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">D</text>
+<rect x="320" y="390" width="260" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="450" y="415" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">E</text>
+</svg>
